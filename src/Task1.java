@@ -16,6 +16,12 @@ public class Task1 {
             System.out.println("Cannot calculate pass rate: No students enrolled in " + courseName);
             return;
         }
+
+        if (passedStudents > studentCount) {
+            System.out.println("Error: Passed students cannot exceed total student count.");
+            return;
+        }
+
         double passRate = (passedStudents * 100.0) / studentCount;
         System.out.println("Pass rate for " + courseName + ": " + passRate + "%");
     }
