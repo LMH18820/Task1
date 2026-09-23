@@ -1,6 +1,8 @@
 public class Task1 {
+    //Static variable: Shared across all instances of the class
     static int totalStudents = 0;
 
+    //Instance  variables: Unique to each object/instance
     String courseName;
     int studentCount;
 
