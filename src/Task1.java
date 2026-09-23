@@ -19,6 +19,12 @@ public class Task1 {
         System.out.println("Course: " + courseName + "| Enrolled: " + studentCount);
     }
 
+    public  void checkCourseStatus(){
+        if (studentCount > 0){
+            System.out.println(courseName + "is active.");
+        }
+    }
+
 
     static void main(String[] args) {
         Task1 c1 = new Task1("Java", 80);
