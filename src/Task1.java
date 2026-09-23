@@ -11,6 +11,11 @@ public class Task1 {
     }
 
     public void showPassRate(int passedStudents){
+
+        if (studentCount <= 0){
+            System.out.println("Cannot calculate pass rate: No students enrolled in " + courseName);
+            return;
+        }
         double passRate = (passedStudents * 100.0) / studentCount;
         System.out.println("Pass rate for " + courseName + ": " + passRate + "%");
     }
