@@ -15,6 +15,10 @@ public class Task1 {
         System.out.println("Pass rate for " + courseName + ": " + passRate + "%");
     }
 
+    public void printCourseDetails(){
+        System.out.println("Course: " + courseName + "| Enrolled: " + studentCount);
+    }
+
 
     static void main(String[] args) {
         Task1 c1 = new Task1("Java", 80);
