@@ -21,9 +21,9 @@ public class Task1 {
         Task1 c2 = new Task1("Database", 100);
         Task1 c3 = new Task1("Web", 70);
 
-        System.out.println(c1.courseName + " has " + c1.studentCount + " students. ");
-        System.out.println(c2.courseName + " has " + c2.studentCount + " students.");
-        System.out.println(c3.courseName + " has " + c3.studentCount + " students.");
+        System.out.println("Course Details ->" + c1.courseName + " | Total: " + c1.studentCount);
+        System.out.println("Course Details ->" + c2.courseName + " | Total: " + c2.studentCount);
+        System.out.println("Course Details ->" + c3.courseName + " | Total: " + c3.studentCount);
 
         System.out.println("--------------------------------------");
 
