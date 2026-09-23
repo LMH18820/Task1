@@ -19,9 +19,9 @@ public class Task1 {
 
     //Main method to create course objects and test variable scope outputs
     static void main(String[] args) {
-        Task1 c1 = new Task1("Java", 80);
-        Task1 c2 = new Task1("Database", 100);
-        Task1 c3 = new Task1("Web", 70);
+        Task1 c1 = new Task1("Java OOP", 85);
+        Task1 c2 = new Task1("Database System", 95);
+        Task1 c3 = new Task1("Web Development", 75);
 
         System.out.println(c1.courseName + " has " + c1.studentCount + " students. ");
         System.out.println(c2.courseName + " has " + c2.studentCount + " students.");
