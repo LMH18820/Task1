@@ -13,6 +13,7 @@ public class Task1 {
     }
 
     public void showPassRate(int passedStudents){
+        //Local variable: Scoped only within this method block
         double passRate = (passedStudents * 100.0) / studentCount;
         System.out.println("Pass rate for " + courseName + ": " + passRate + "%");
     }
