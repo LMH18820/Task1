@@ -1,3 +1,4 @@
+//Class to demonstrate local, instance, and static variable scopes in java
 public class Task1 {
     static int totalStudents = 0;
 
@@ -16,6 +17,7 @@ public class Task1 {
     }
 
 
+    //Main method to create course objects and test variable scope outputs
     static void main(String[] args) {
         Task1 c1 = new Task1("Java", 80);
         Task1 c2 = new Task1("Database", 100);
