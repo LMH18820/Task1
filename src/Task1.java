@@ -11,7 +11,7 @@ public class Task1 {
     }
 
     public void showPassRate(int passedStudents){
-        double passRate = (passedStudents * 100.0) / studentCount;
+        double passRate = ((double) passedStudents / studentCount) * 100;
         System.out.println("Pass rate for " + courseName + ": " + passRate + "%");
     }
 
